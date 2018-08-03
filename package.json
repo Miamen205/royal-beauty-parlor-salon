@@ -1,0 +1,33 @@
+{
+  "name": "royal-beauty-parlor",
+  "version": "0.1.0",
+  "homepage": "https://salonartifex.de",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-facebook": "^5.0.3",
+    "react-image-lightbox": "^5.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "description": "[![Build Status](https://travis-ci.com/42tg/salon-artifex.svg?branch=master)](https://travis-ci.com/42tg/salon-artifex) #Schnelle adaption der salonartifex.de Seite um änderungen in der Zukunft strukturiert und schnell zu gestalten",
+  "main": "index.js",
+  "author": "Eddie Miamen",
+  "license": "ISC"
+}

@@ -1,0 +1,272 @@
+@font-face
+{
+    font-family: "gara";
+    local: gara;
+    src: url(./fonts/gara.ttf);
+}
+a:link { text-decoration:none;  color:#ffffff; }
+a:visited { text-decoration:none; color:#ffffff; }
+a:active { text-decoration:none; color:#079dd8; }
+a:hover { text-decoration:none; color:#079dd8; }
+
+.teamInfo h3 {
+    clear: both;
+    padding: 17px;
+    margin-bottom: 0;
+}
+.grey {
+    filter: rgb(65, 124, 233); /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+
+.teampics img{
+    width:100%;
+}
+.teampics .main {
+    width: 260px;
+}
+
+.teampics .side{
+    width: 125px;
+}
+
+.boxshadow
+{
+    display: inline-grid;
+    -moz-box-shadow: 0px 0px 20px 20px #000000; /* Schatten für Firefox */
+    -webkit-box-shadow: 0px 0px 20px 20px #000000; /* Schatten für Safari, Chrome */
+    -khtml-box-shadow: 0px 0px 20px 20px #000000; /* Schatten für Konqueror */
+    box-shadow: 0px 0px 20px 20px #000000; /* Schatten für CSS3 */
+    -moz-border-radius:10px; /* Runde Ecke für Firefox */
+    -webkit-border-radius:10px; /* Runde Ecke für Safari, Chrome */
+    -khtml-border-radius:10px; /* Runde Ecke für Konqueror */
+    border-radius:10px; /* Runde Ecke für CSS3 */
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255) 0%, rgb(50, 91, 228) 100%);
+}
+button.innershadow {
+    padding:0;
+    cursor: pointer;
+}
+.innershadow
+{
+    display: inline-grid;
+    -moz-box-shadow: 0px 0px 5px 0px #022b46; /* Schatten für Firefox */
+    -webkit-box-shadow: 0px 0px 5px 0px #02034d; /* Schatten für Safari, Chrome */
+    -khtml-box-shadow: 0px 0px 5px 0px #000000; /* Schatten für Konqueror */
+    box-shadow: 0px 0px 5px 0px #034275; /* Schatten für CSS3 */
+    -moz-border-radius:5px; /* Runde Ecke für Firefox */
+    -webkit-border-radius:5px; /* Runde Ecke für Safari, Chrome */
+    -khtml-border-radius:5px; /* Runde Ecke für Konqueror */
+    border-radius:5px; /* Runde Ecke für CSS3 */
+    background-color:#fffbe0;
+    border-style:solid;
+    border-color:#115ccc;
+    text-align:center;
+}
+.innershadowwhite
+{
+    display: inline-grid;
+    -moz-box-shadow: 0px 0px 5px 0px #214edf; /* Schatten für Firefox */
+    -webkit-box-shadow: 0px 0px 5px 0px #214edf; /* Schatten für Safari, Chrome */
+    -khtml-box-shadow: 0px 0px 5px 0px #214edf; /* Schatten für Konqueror */
+    box-shadow: 0px 0px 5px 0px #214edf; /* Schatten für CSS3 */
+    -moz-border-radius:5px; /* Runde Ecke für Firefox */
+    -webkit-border-radius:5px; /* Runde Ecke für Safari, Chrome */
+    -khtml-border-radius:5px; /* Runde Ecke für Konqueror */
+    border-radius:5px; /* Runde Ecke für CSS3 */
+    background-color:#191914;
+    border-style:solid;
+    border-color:#3856dd;
+    text-align:center;
+}
+.infoshadow
+{
+    display: inline-grid;
+    -moz-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Firefox */
+    -webkit-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Safari, Chrome */
+    -khtml-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Konqueror */
+    box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für CSS3 */
+    -moz-border-radius:10px; /* Runde Ecke für Firefox */
+    -webkit-border-radius:10px; /* Runde Ecke für Safari, Chrome */
+    -khtml-border-radius:10px; /* Runde Ecke für Konqueror */
+    border-radius:10px; /* Runde Ecke für CSS3 */
+    background-color:#191914;
+    border-style:solid;
+    border-color:#ffffff;
+    text-align:center;
+}
+.buttominfoshadow
+{
+    display: inline-grid;
+    -moz-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Firefox */
+    -webkit-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Safari, Chrome */
+    -khtml-box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für Konqueror */
+    box-shadow: 0px 0px 1px 0px #ffffff; /* Schatten für CSS3 */
+    -moz-border-radius:10px; /* Runde Ecke für Firefox */
+    -webkit-border-radius:10px; /* Runde Ecke für Safari, Chrome */
+    -khtml-border-radius:10px; /* Runde Ecke für Konqueror */
+    border-radius:10px; /* Runde Ecke für CSS3 */
+    background-color:#fffbe0;
+    border-style:solid;
+    border-color:#ab0000;
+    text-align:center;
+}
+body
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* background-image:url(./static/paperback.jpg); */
+    background-repeat:repeat;
+    background-image: -webkit-linear-gradient(rgba(7, 96, 138, 0.87) 0%, rgba(163, 23, 228, 0.842) 100%);
+}
+.ro
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    background-image:url(./static/ro.png);
+    background-position:top right;
+    background-repeat:no-repeat;
+}
+.ru
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    /* background-image:url(./static/ru.png); */
+    background-position:bottom right;
+    background-repeat:no-repeat;
+    font-size: 20px;
+}
+.lo
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    background-image:url(./static/lo.png);
+    background-position:top left;
+    background-repeat:no-repeat;
+}
+.lu
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    background-image:url(./static/lu.png);
+    background-position:bottom left;
+    background-repeat:no-repeat;
+}
+.mr
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    background-image:url(./static/hair-salon-chair.png);
+    background-position:top right;
+    background-repeat:no-repeat;
+}
+.xn
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+    background-color:#191914;
+}
+.x
+{
+    font-family: gara, Arial, 'Special Elite', sans-serif;
+}
+.lhead
+{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow:#000000 1px 1px 0px;
+    font-size: 24px;
+}
+a.lhead:link { text-decoration:none;  color:#ffffff; }
+a.lhead:visited { text-decoration:none; color:#ffffff; }
+a.lhead:active { text-decoration:none; color:#ab0000; }
+a.lhead:hover { text-decoration:none; color:#ab0000; }
+.info
+{
+    margin: 15px;
+    color: #ffffff;
+    /*text-shadow:#000000 1px 1px 0px;*/
+    font-size: 20px;
+}
+.lbody
+{
+    font-weight: bold;
+    color: #ab0000;
+    text-shadow:#000000 1px 1px 0px;
+    font-size: 24px;
+}
+a.lbody:link { text-decoration:none;  color:#2092df; }
+a.lbody:visited { text-decoration:none; color:#1196e2; }
+a.lbody:active { text-decoration:none; color:#ffffff; }
+a.lbody:hover { text-decoration:none; color:#ffffff; }
+.tbody
+{
+    margin-left: 20px;
+    margin-right: 180px;
+    color: #000000;
+    font-size: 24px;
+}
+.hbody
+{
+    color: #ab0000;
+}
+.littlebody
+{
+    font-size: 18px;
+}
+
+#sortable1 li, #sortable2 li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; width: 120px; }
+
+.link-list {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.link-list > li > a {
+    color: black;
+}
+.link-list > li > a:hover {
+    color: #ab0000;
+    text-decoration: underline;
+}
+
+.tbody { position: relative;}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: inline-grid;
+}
+
+.fade-enter {
+    background-color: #fffbe0;
+    position: relative;
+    opacity: 0;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+    transition-delay: 500ms;
+}
+
+
+.fade-exit {
+    position:absolute;
+    top:0;
+    opacity: 1;
+    width:100%;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 250ms ease-out;
+
+    z-index: 1;
+}
+.animation-wrapper
+{
+    position: relative;
+    display:inline-block;
+    width:100%;
+}
+
